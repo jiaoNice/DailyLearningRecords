@@ -29,8 +29,10 @@ public class FileDemo {
 			File[] f1 = f.listFiles();
 			for(File ff:f1) {
 				if(ff.isFile()) {
+					System.out.println(" "+ff.getName());
 					ff.delete();
 				}else if(ff.isDirectory()) {
+					System.out.println(ff.getName());
 					clear(ff);
 				}
 			}
