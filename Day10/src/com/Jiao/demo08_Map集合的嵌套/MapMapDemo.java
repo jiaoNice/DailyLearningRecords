@@ -6,7 +6,7 @@ import java.util.Map;
 import java.util.Set;
 
 /*
- * 
+ * Map集合储存Map集合
  */
 public class MapMapDemo {
 	public static void main(String[] args) {
